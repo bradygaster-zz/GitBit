@@ -1,0 +1,32 @@
+﻿<div class="row">
+    <div class="col-md-5">
+        <img src="~/Content/gitbit-logo.png" style="margin-top: 10px;" />
+    </div>
+    <div class="col-md-7">
+        <h2>Welcome to GitBit!</h2>
+        <p>
+            GitBit is the IoT bridge between the Octocat and the littleBit.
+        </p>
+        <p>
+            <a href="littlebits.cc">littlebits</a> modules make it really easy for you to create things. the <a href="littlebits.cc/bits/cloudbit">cloudbit</a> makes it easy to connect your things to the internet. The <a href="https://www.nuget.org/packages/LittleBits.CloudBitApiClient/">littlebits client library we wrote</a> makes it really easy to connect your .NET applications to the <a href="http://developer.littlebitscloud.cc/">littlebits cloud http API</a>.
+        </p>
+        <p>
+            So we did what any self-respecting developer would do. We wrote something to watch our code.
+        </p>
+        <p>
+            Then, we made it easy for everyone else to use it, too. Simply copy and paste the URL below into the webhook URL textbox when you're setting up your webhook in GitHub.
+            <pre>http://gitbit.azurewebsites.net/{access token}/{device id}</pre>
+        </p>
+        <p>
+            Then change the template to reflect your Access Token and Device ID of the cloudBit you want to light up (or turn on, or whatever). You can get your Access Token and Device ID from the <a href="http://control.littlebitscloud.cc/">littlebits cloud control panel</a>. Whenever GitHub pings the GitBit API, we'll just call your cloudBit and let you do the magic.
+        </p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-7 col-md-offset-5">
+        <h2>Privacy at GitBit!</h2>
+        <p>
+            GitBit doesn't collect, store, or use any of the data we receive from GitHub or that we pass to the littleBits API.
+        </p>
+    </div>
+</div>
